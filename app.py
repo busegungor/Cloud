@@ -5,6 +5,7 @@ import numpy as np
 import sklearn
 import sys
 import os 
+import gunicorn
 
 
 model = pickle.load(open('fish.pkl', 'rb'))
